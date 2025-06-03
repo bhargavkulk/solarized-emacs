@@ -1292,6 +1292,12 @@
      `(mew-face-mark-unread ((,class (:foreground ,red))))
      `(mew-face-eof-message ((,class (:foreground ,green))))
      `(mew-face-eof-part ((,class (:foreground ,yellow))))
+;;;;; meow
+     `(meow-normal-indicator ((,class (:foreground ,base03 :background ,green))))
+     `(meow-insert-indicator ((,class (:foreground ,base03 :background ,orange))))
+     `(meow-motion-indicator ((,class (:foreground ,base03 :background ,violet))))
+     `(meow-keypad-indicator ((,class (:foreground ,base03 :background ,cyan))))
+     `(meow-beacon-indicator ((,class (:foreground ,base03 :background ,magenta))))
 ;;;;; mic-paren
      `(paren-face-match
        ((,class (:foreground ,magenta :background unspecified

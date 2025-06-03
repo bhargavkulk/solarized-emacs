@@ -1293,15 +1293,15 @@
      `(mew-face-eof-message ((,class (:foreground ,green))))
      `(mew-face-eof-part ((,class (:foreground ,yellow))))
 ;;;;; meow
-     `(meow-normal-indicator ((,class (:foreground ,base03 :background ,green))))
+     `(meow-normal-indicator ((,class (:background ,base03 :foreground ,green))))
      `(meow-normal-cursor ((,class (:background ,green))))
-     `(meow-insert-indicator ((,class (:foreground ,base03 :background ,orange))))
+     `(meow-insert-indicator ((,class (:background ,base03 :foreground ,orange))))
      `(meow-insert-cursor ((,class (:background ,orange))))
-     `(meow-motion-indicator ((,class (:foreground ,base03 :background ,violet))))
+     `(meow-motion-indicator ((,class (:background ,base03 :foreground ,violet))))
      `(meow-motion-cursor ((,class (:background ,violet))))
-     `(meow-keypad-indicator ((,class (:foreground ,base03 :background ,cyan))))
+     `(meow-keypad-indicator ((,class (:background ,base03 :foreground ,cyan))))
      `(meow-keypad-cursor ((,class (:background ,cyan))))
-     `(meow-beacon-indicator ((,class (:foreground ,base03 :background ,magenta))))
+     `(meow-beacon-indicator ((,class (:background ,base03 :foreground ,magenta))))
      `(meow-beacon-cursor ((,class (:background ,magenta))))
 ;;;;; mic-paren
      `(paren-face-match

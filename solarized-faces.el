@@ -1294,10 +1294,15 @@
      `(mew-face-eof-part ((,class (:foreground ,yellow))))
 ;;;;; meow
      `(meow-normal-indicator ((,class (:foreground ,base03 :background ,green))))
+     `(meow-normal-cursor ((,class (:background ,green))))
      `(meow-insert-indicator ((,class (:foreground ,base03 :background ,orange))))
+     `(meow-insert-cursor ((,class (:background ,orange))))
      `(meow-motion-indicator ((,class (:foreground ,base03 :background ,violet))))
+     `(meow-motion-cursor ((,class (:background ,violet))))
      `(meow-keypad-indicator ((,class (:foreground ,base03 :background ,cyan))))
+     `(meow-keypad-cursor ((,class (:background ,cyan))))
      `(meow-beacon-indicator ((,class (:foreground ,base03 :background ,magenta))))
+     `(meow-beacon-cursor ((,class (:background ,magenta))))
 ;;;;; mic-paren
      `(paren-face-match
        ((,class (:foreground ,magenta :background unspecified

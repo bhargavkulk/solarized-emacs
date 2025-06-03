@@ -233,12 +233,12 @@
      `(font-lock-builtin-face ((,class (:foreground ,base0 :weight ,s-maybe-bold
                                                     :slant ,s-maybe-italic))))
      `(font-lock-comment-delimiter-face
-       ((,class (:foreground ,base01 :slant ,s-maybe-italic))))
-     `(font-lock-comment-face ((,class (:foreground ,base01))))
+       ((,class (:foreground ,base01 :slant italic))))
+     `(font-lock-comment-face ((,class (:foreground ,base01 :slant italic))))
      `(font-lock-constant-face ((,class (:foreground ,blue :weight bold))))
      `(font-lock-number-face ((,class (:foreground ,(if solarized-highlight-numbers violet 'unspecified)))))
-     `(font-lock-doc-face ((,class (:foreground ,(if solarized-distinct-doc-face violet cyan)
-                                                :slant ,s-maybe-italic))))
+     `(font-lock-doc-face ((,class (:foreground ,cyan
+                                                :slant italic))))
      `(font-lock-function-name-face ((,class (:foreground ,blue))))
      `(font-lock-keyword-face ((,class (:foreground ,green :weight ,s-maybe-bold))))
      `(font-lock-negation-char-face ((,class (:foreground ,yellow :weight bold))))

@@ -331,14 +331,14 @@ customize the resulting theme."
             (s-header-line-bg (if solarized-high-contrast-mode-line
                                   base02 base03))
             (s-header-line-underline (if solarized-high-contrast-mode-line
-                                         nil base02))
+                                         nil nil))
 
             (s-mode-line-fg (if solarized-high-contrast-mode-line
                                 base03 base0))
             (s-mode-line-bg (if solarized-high-contrast-mode-line
                                 base0 base02))
             (s-mode-line-underline (if solarized-high-contrast-mode-line
-                                       nil s-line))
+                                       nil nil))
 
             (s-mode-line-buffer-id-fg (if solarized-high-contrast-mode-line
                                           'unspecified base1))
